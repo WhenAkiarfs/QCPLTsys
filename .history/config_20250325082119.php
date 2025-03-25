@@ -1,0 +1,10 @@
+<?php
+$host= 'localhost';
+$db_name='ticketingsys';
+$username='root';
+$password='';
+
+try {
+    $conn = new PD$host, $username, $password);
+}
+?>
