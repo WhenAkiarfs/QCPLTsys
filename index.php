@@ -31,11 +31,11 @@
                     <!-- Updated form with action to login.php -->
                     <form action="login.php" method="POST" id="login-form">
                         <div class="form-group">
-                            <label for="email">Email:</label>
+                            <label for="email" id="email-label">Email Address</label><br>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
                         </div>
                         <div class="form-group">
-                            <label for="password">Password:</label>
+                            <label for="password" id="password-label">Password</label><br>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block mt-3">Sign in</button>
